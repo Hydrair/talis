@@ -1,8 +1,8 @@
 # Jekyll Configuration für GitHub Pages
 title: Talis
 description: Eine Reiseführer für Talis
-baseurl: "" # der subpath deiner Seite, falls vorhanden
-url: "" # der base-hostname und protokoll für deine Seite
+baseurl: "/talis" # der subpath deiner Seite, falls vorhanden
+url: "https://hydrair.github.io" # der base-hostname und protokoll für deine Seite
 
 # Theme (optional - wir verwenden ein Custom-Layout)
 # theme: minima
