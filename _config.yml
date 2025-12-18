@@ -1,0 +1,39 @@
+# Jekyll Configuration für GitHub Pages
+title: Talis
+description: Eine Reiseführer für Talis
+baseurl: "" # der subpath deiner Seite, falls vorhanden
+url: "" # der base-hostname und protokoll für deine Seite
+
+# Theme (optional - wir verwenden ein Custom-Layout)
+# theme: minima
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Reisesystem
+    url: /reisesystem
+  - title: Orfnir Lore
+    url: /orfnir-lore
+  - title: Charaktere
+    url: /charaktere
+
+# Podcast-Konfiguration
+# Aktualisiere diese URL, wenn eine neue Podcast-Folge hinzugefügt wird
+# Um den Embed-Code zu erhalten: OneDrive-Ordner öffnen → Neueste Datei wählen → "Teilen" → "Einbetten" → Code kopieren
+podcast:
+  latest_embed_url: "https://1drv.ms/u/c/ea8111db562a4084/IQS9L2RsaLVzS5EyGE8TUQhrAT2_98MNbEs9Hr0D4e06rpI"
+  folder_link: "https://1drv.ms/f/c/ea8111db562a4084/IgB7gKfM4i67Q74C4PkWphMSAcYuyxn0zQR5CimJQRXAJVY?e=d7aUtg"
+
+# Plugins für GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
